@@ -1,0 +1,74 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.header__pic{
+    background-image: url(images/Background\ Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+.wrapper{
+    height: 700px;
+    background-color: rgb(0, 0, 0, 0.5)
+}
+.header__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 940px;
+    margin: 0 auto;
+}
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+}
+.header__logo{
+    color: #fed136;
+    font-family: wisdom;
+}
+.header__menu{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    
+}
+.header__bottom{
+    width: 940px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    margin: 220px;
+}
+.menu__item{
+    padding-left: 40px;
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.first--h{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.second--h{
+    text-transform: uppercase;
+    font-size: 75px;
+    margin: 0;
+}
+.header__but{
+    text-transform: uppercase;
+    background-color: #fed136;
+    width: 240px;
+    height: 65px;
+    border: 0;
+    border-radius: 3px;
+    color: white;
+    font-size: 24px;
+    margin-top: 50px;
+}

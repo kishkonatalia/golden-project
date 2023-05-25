@@ -1,0 +1,42 @@
+.logo{
+    @include wrapper;
+    flex-direction: row;
+    height: 160px;
+}
+.logos{
+    margin: 10px 40px 10px 0;
+}
+@media screen and (max-width: 768px){
+    .logo{
+        flex-direction: column;
+        height: auto;
+    }
+    .logos{
+        margin: 10px 0;
+    }
+}
+.en{
+    background-image: url('images/envato.png');
+    width: 150px;
+    height: 40px;
+    background-repeat: no-repeat;  
+}
+.wp{
+    background-image: url('images/wordpress.png');
+    width: 190px;
+    height: 42px;
+    background-repeat: no-repeat;  
+} 
+.tt{
+    background-image: url('images/tuts+.png');
+    width: 130px;
+    height: 40px;
+    background-repeat: no-repeat;  
+} 
+.micr{
+    background-image: url('images/microlancer copy.png');
+    width: 190px;
+    height: 42px;
+    background-repeat: no-repeat;  
+    margin-right: 0;
+} 

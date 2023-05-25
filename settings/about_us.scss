@@ -1,0 +1,110 @@
+.about_us{
+    max-width: 940px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.about_us_top{
+    @include top;
+    h1{
+        @include header;
+    }
+    span{
+        @include span;
+    }
+}
+.about_us_bottom{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: repeat(5 , 1fr);
+    grid-gap: 90px 40px;
+    margin-top: 80px;
+    place-items: center;
+    margin-bottom: 120px;
+}
+.ab__content{
+    display: flex;
+    flex-direction: column;
+    h2{
+        text-transform: uppercase;
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    h3{
+        font-size: 18px;
+        margin: 0;
+    }
+    .text{
+        @include span;
+        margin: 0;
+    }
+}
+.ab_left{
+    align-items: flex-start;
+}
+.ab_right{
+    align-items: flex-end;
+    text-align: end;
+}
+.ab_photo{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border: 5px solid $greyline;
+    position: relative;
+    &1{
+        background-image: url('images/image7.png');
+    }
+    &2{
+        background-image: url('images/image (10).png');
+    }
+    &3{
+        background-image: url('images/image (9).png');
+        background-position: bottom;
+    }
+    &4{
+        background-image: url('images/image (8).png');
+    }
+    &5{
+        background-color: $golden;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: white;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    &::before{
+        content: '';
+        height: 90px;
+        width: 3px;
+        background-color: $greyline;
+        position: absolute;
+        top: 175px;
+        left: 80px;
+    }
+    &5::before{
+        content: none;
+    }
+}
+@media screen and (max-width: 890px){
+    .about_us_bottom{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5 , 1fr);
+        margin-left: 5%;
+        margin-right: 5%;
+        grid-gap: 30px 20px
+    }
+    .ab__empty{
+        display: none;
+    }
+    .ab_photo::before{
+        content: none;
+    }
+    .ab_photo5{
+        grid-column: 1/3;
+    }
+}

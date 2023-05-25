@@ -1,0 +1,90 @@
+.contact__us__wrapper{
+    width: 100%;
+    background-image: url('images/background map.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact__wr2{
+    background-image: url('images/map image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 1000px 100px;
+}
+.contact__us{
+    max-width: 940px;
+    margin: 0 auto;
+}
+.contact__us__top{
+    @include top;
+    h2{
+        @include header;
+        color: white
+    }
+    span{
+        @include span;
+    }
+}
+.contact__us_bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    .form__button{
+        width: 240px;
+        height: 70px;
+        background-color: $golden;
+        color: white;
+        text-transform: uppercase;
+        border-radius: 3px;
+        border: 0;
+        outline: 0;
+        font-size: 24px;
+        margin-bottom: 115px;
+    }
+    .form__button:hover{
+        background-color: #ebb500;
+    }
+}
+.cu__grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3 , 1fr);
+    grid-gap: 30px;
+    width: 940px;
+    height: 210px;
+    margin-bottom: 30px;
+    input, textarea{
+        width: 100%;
+        height: 100%;
+        text-transform: uppercase;
+        border-radius: 3px;
+        border: 0;
+        outline: 0;
+        font-size: 14px;
+        padding-left: 20px;
+        color: $greytext;
+        box-sizing: border-box;
+    }
+    textarea{
+        resize: none;
+        padding-top: 20px;
+    }
+    .cu__input__4{
+        grid-column: 2;
+        grid-row: 1/4;
+    }
+}
+@media screen and (max-width: 960px){
+    .cu__grid{
+        grid-template-columns: calc(100% - 60px);
+        grid-template-rows: repeat(4, 1fr);
+        width: 100%;
+        height: 300px;
+        margin-left: 30px;
+        .cu__input__4{
+            grid-column: 1;
+            grid-row: 4/7;
+        }
+    }
+}

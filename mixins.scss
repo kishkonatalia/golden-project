@@ -1,0 +1,61 @@
+@mixin top{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+@mixin header{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top: 120px;
+    margin-bottom: 0;
+    text-align: center;
+}
+@mixin span{
+    margin: 20px;
+    font-size: 16px;
+    color: $greytext;
+}
+@mixin photo{
+    width: 290px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    background-position: center;
+}
+@mixin circle{
+    background-image: url('images/Circle-1.png');
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 0;
+    left: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@mixin icon{
+    content: '';
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-repeat: no-repeat;
+}
+@mixin wrapper{
+    max-width: 940px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+@mixin tm__icon{
+    content: '';
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 12px;
+    left: 12px
+}

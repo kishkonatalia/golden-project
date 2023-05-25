@@ -1,0 +1,63 @@
+.services{
+    max-width: 940px;
+    margin: 0 auto;
+}
+.services__top{
+    @include top;
+    h3{
+        @include header;
+    }
+    span{
+        @include span;
+    }
+}
+.services__bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+@media screen and (max-width: 768px){
+    .services__bottom{
+        flex-direction: column;
+    }
+}
+.block{
+    width: 270px;
+    height: 250px;
+    text-align: center;
+    div{
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    h4{
+        font-size: 18px;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    span{
+        color: $greytext;
+    }
+}
+.bfirst{
+    @include circle;
+    &::before{
+        @include icon;
+        background-image: url('images/Icon-Basket.png');
+    }
+}
+.bsecond{
+    @include circle;
+    &::before{
+        @include icon;
+        background-image: url('images/Icon-Laptop.png');
+    }
+}
+.bthird{
+    @include circle;
+    &::before{
+        @include icon;
+        background-image: url('images/Icon-Locked.png');
+        left: 25px;
+    }
+}
