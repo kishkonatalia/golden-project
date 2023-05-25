@@ -17,11 +17,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
-@media screen and (max-width: 768px){
-    .team__center{
-        flex-direction: column;
-    }
-}
 .tm__card{
     max-width: 220px;
     display: flex;
@@ -46,6 +41,14 @@
         font-size: 14px;
         color: $greytext;
         margin-top: 10px;
+    }
+}
+@media screen and (max-width: 768px){
+    .team__center{
+        flex-direction: column;
+    }
+    .tm__card{
+        margin-right: 0;
     }
 }
 .tm__icons{
