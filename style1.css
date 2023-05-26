@@ -92,12 +92,12 @@ body {
 .header__but {
   text-transform: uppercase;
   background-color: #fed136;
-  width: 12vw;
-  height: 6.7vh;
+  width: 240px;
+  height: 65px;
   border: 0;
   border-radius: 3px;
   color: white;
-  font-size: 1.2vw;
+  font-size: 24px;
   margin-top: 50px;
 }
 .header__but:hover {
@@ -509,11 +509,6 @@ body {
   justify-content: space-between;
 }
 
-@media screen and (max-width: 768px) {
-  .team__center {
-    flex-direction: column;
-  }
-}
 .tm__card {
   max-width: 220px;
   display: flex;
@@ -540,6 +535,14 @@ body {
   margin-top: 10px;
 }
 
+@media screen and (max-width: 768px) {
+  .team__center {
+    flex-direction: column;
+  }
+  .tm__card {
+    margin-right: 0;
+  }
+}
 .tm__icons {
   display: flex;
   justify-content: center;
