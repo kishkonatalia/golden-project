@@ -58,27 +58,27 @@
 .photo__items{
         margin: 0;
         &__1{
-            background-image: url('images/image.png');
+            background-image: url('images/Image.png');
             @include photo;
         }
         &__2{
-            background-image: url('images/image2.png');
+            background-image: url('images/Image2.png');
             @include photo;
         }
         &__3{
-            background-image: url('images/image3.png');
+            background-image: url('images/Image3.png');
             @include photo;
         }
         &__4{
-            background-image: url('images/image4.png');
+            background-image: url('images/Image4.png');
             @include photo;
         }
         &__5{
-            background-image: url('images/image5.png');
+            background-image: url('images/Image5.png');
             @include photo;
         }
         &__6{
-            background-image: url('images/image6.png');
+            background-image: url('images/Image6.png');
             @include photo;
         }
     }
