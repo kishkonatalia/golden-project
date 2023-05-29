@@ -59,7 +59,7 @@
     .tm__icon{
         width: 40px;
         height: 40px;
-        background-image: url('images/background.png');
+        background-image: url('images/Background.png');
         background-size: cover;
         margin: 15px 5px 0 5px;
         position: relative;
@@ -67,20 +67,20 @@
 }
 .twitter::after{
     @include tm__icon;
-    background-image: url('images/twitter.png');
+    background-image: url('images/Twitter.png');
     
 }
 .facebook::after{
     @include tm__icon;
-    background-image: url('images/facebook.png');
+    background-image: url('images/Facebook.png');
 }
 .pint::after{
     @include tm__icon;
-    background-image: url('images/pinterest.png');
+    background-image: url('images/Pinterest.png');
 }
 .google::after{
     @include tm__icon;
-    background-image: url('images/google+.png');
+    background-image: url('images/Google+.png');
 }
 .tm__bottom{
     max-width: 500px;

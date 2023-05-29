@@ -293,7 +293,7 @@ body {
   margin: 0;
 }
 .photo__items__1 {
-  background-image: url("images/image.png");
+  background-image: url("images/Image.png");
   width: 290px;
   height: 300px;
   background-size: cover;
@@ -302,7 +302,7 @@ body {
   background-position: center;
 }
 .photo__items__2 {
-  background-image: url("images/image2.png");
+  background-image: url("images/Image2.png");
   width: 290px;
   height: 300px;
   background-size: cover;
@@ -311,7 +311,7 @@ body {
   background-position: center;
 }
 .photo__items__3 {
-  background-image: url("images/image3.png");
+  background-image: url("images/Image3.png");
   width: 290px;
   height: 300px;
   background-size: cover;
@@ -320,7 +320,7 @@ body {
   background-position: center;
 }
 .photo__items__4 {
-  background-image: url("images/image4.png");
+  background-image: url("images/Image4.png");
   width: 290px;
   height: 300px;
   background-size: cover;
@@ -329,7 +329,7 @@ body {
   background-position: center;
 }
 .photo__items__5 {
-  background-image: url("images/image5.png");
+  background-image: url("images/Image5.png");
   width: 290px;
   height: 300px;
   background-size: cover;
@@ -338,7 +338,7 @@ body {
   background-position: center;
 }
 .photo__items__6 {
-  background-image: url("images/image6.png");
+  background-image: url("images/Image6.png");
   width: 290px;
   height: 300px;
   background-size: cover;
@@ -421,17 +421,17 @@ body {
   position: relative;
 }
 .ab_photo1 {
-  background-image: url("images/image7.png");
+  background-image: url("images/Image7.png");
 }
 .ab_photo2 {
-  background-image: url("images/image (10).png");
+  background-image: url("images/Image (10).png");
 }
 .ab_photo3 {
-  background-image: url("images/image (9).png");
+  background-image: url("images/Image (9).png");
   background-position: bottom;
 }
 .ab_photo4 {
-  background-image: url("images/image (8).png");
+  background-image: url("images/Image (8).png");
 }
 .ab_photo5 {
   background-color: #fed136;
@@ -552,7 +552,7 @@ body {
 .tm__icons .tm__icon {
   width: 40px;
   height: 40px;
-  background-image: url("images/background.png");
+  background-image: url("images/Background.png");
   background-size: cover;
   margin: 15px 5px 0 5px;
   position: relative;
@@ -566,7 +566,7 @@ body {
   background-repeat: no-repeat;
   top: 12px;
   left: 12px;
-  background-image: url("images/twitter.png");
+  background-image: url("images/Twitter.png");
 }
 
 .facebook::after {
@@ -577,7 +577,7 @@ body {
   background-repeat: no-repeat;
   top: 12px;
   left: 12px;
-  background-image: url("images/facebook.png");
+  background-image: url("images/Facebook.png");
 }
 
 .pint::after {
@@ -588,7 +588,7 @@ body {
   background-repeat: no-repeat;
   top: 12px;
   left: 12px;
-  background-image: url("images/pinterest.png");
+  background-image: url("images/Pinterest.png");
 }
 
 .google::after {
@@ -599,7 +599,7 @@ body {
   background-repeat: no-repeat;
   top: 12px;
   left: 12px;
-  background-image: url("images/google+.png");
+  background-image: url("images/Google+.png");
 }
 
 .tm__bottom {
@@ -636,28 +636,28 @@ body {
   }
 }
 .en {
-  background-image: url("images/envato.png");
+  background-image: url("images/Envato.png");
   width: 150px;
   height: 40px;
   background-repeat: no-repeat;
 }
 
 .wp {
-  background-image: url("images/wordpress.png");
+  background-image: url("images/Wordpress.png");
   width: 190px;
   height: 42px;
   background-repeat: no-repeat;
 }
 
 .tt {
-  background-image: url("images/tuts+.png");
+  background-image: url("images/Tuts+.png");
   width: 130px;
   height: 40px;
   background-repeat: no-repeat;
 }
 
 .micr {
-  background-image: url("images/microlancer copy.png");
+  background-image: url("images/Microlancer copy.png");
   width: 190px;
   height: 42px;
   background-repeat: no-repeat;
@@ -666,13 +666,13 @@ body {
 
 .contact__us__wrapper {
   width: 100%;
-  background-image: url("images/background map.png");
+  background-image: url("images/Background map.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .contact__wr2 {
-  background-image: url("images/map image.png");
+  background-image: url("images/Map Image.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 1000px 100px;
@@ -804,19 +804,19 @@ body {
 }
 
 .f_twitter {
-  background-image: url("images/twitterwhite.png");
+  background-image: url("images/Twitterwhite.png");
 }
 
 .f_facebook {
-  background-image: url("images/facebookwhite.png");
+  background-image: url("images/Facebookwhite.png");
 }
 
 .f_pint {
-  background-image: url("images/pinterestwhite.png");
+  background-image: url("images/Pinterestwhite.png");
 }
 
 .f_google {
-  background-image: url("images/google+white.png");
+  background-image: url("images/Google+white.png");
 }
 
 @media screen and (max-width: 960px) {
